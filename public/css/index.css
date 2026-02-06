@@ -1,0 +1,27 @@
+   .accordion-button::after {
+      content: "+";
+      font-size: 22px;
+      font-weight: bold;
+      background-image: none !important;
+      transform: none !important;
+    }
+
+    /* وقتی باز می‌شود − */
+    .accordion-button:not(.collapsed)::after {
+      content: "−";
+    }
+
+    /* اگه خواستی + سمت چپ باشه */
+    .accordion-button {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+    }
+
+
+
+
+.slider-img {
+  height: 400px; /* ارتفاع دلخواه */
+  object-fit: cover; /* برای کراپ هوشمند تصویر */
+}

@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>Full Page Slider</title>
+
+
+  <link rel="stylesheet" href="./public/css/main.css">
+
+
+</head>
+
+<body>
+
+
+<header class="bg-[#1E2156] text-white overflow-hidden">
+  <div class="max-w-7xl mx-auto px-6 py-6 flex justify-between items-center">
+     <h1 class="text-xl font-bold px-4 py-2 rounded transition-colors duration-300 hover:bg-white hover:text-black">
+  {Finsweet
+</h1>
+
+    <nav class="relative">
+    
+      <div class="md:hidden flex items-center justify-between p-4">
+      
+        <button id="menu-btn" class="focus:outline-none">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+
+    
+      <div id="menu" class="hidden md:flex md:items-center md:gap-8 text-sm p-4 md:p-0">
+      <div class="flex flex-col md:flex-row md:items-center md:gap-8">
+  <a class="block md:inline-block transition px-4 py-2 rounded text-slate-50 hover:bg-white hover:text-[#1E2156]" href="#">Home</a>
+  <a class="block md:inline-block transition px-4 py-2 rounded  text-slate-50 hover:bg-white hover:text-[#1E2156]" href="./about.html">About</a>
+  <a class="block md:inline-block transition px-4 py-2 rounded  text-slate-50 hover:bg-white hover:text-[#1E2156]" href="#">Features</a>
+  <a class="block md:inline-block transition  px-4 py-2 rounded  text-slate-50 hover:bg-white hover:text-[#1E2156]" href="#">Pricing</a>
+</div>
+
+       <button
+  class="hidden md:inline-block mt-4 border border-white px-5 py-2 rounded-full text-sm
+  hover:bg-white hover:text-[#1E2156] transition duration-300">
+  Contact us
+</button>
+
+      </div>
+    </nav>
+  </div>
+
+
+  <div class="max-w-7xl mx-auto px-6 py-24 grid md:grid-cols-2 gap-12 items-center">
+    
+    <div class="group max-w-xl mx-auto px-4 sm:px-6 lg:px-0">
+      <h2 class="text-4xl md:text-5xl font-bold leading-tight
+             transition-transform duration-500 ease-in-out group-hover:translate-x-2">
+        Building stellar <br />
+        websites for early <br />
+        startups
+      </h2>
+
+      <p class="text-gray-300 mt-4 sm:mt-6 max-w-md
+             transition-transform duration-500 ease-in-out group-hover:translate-x-2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+      </p>
+
+      <div class="flex flex-col sm:flex-row gap-4 mt-6 sm:mt-8">
+        <button
+          class="bg-yellow-400 text-black px-6 py-3 rounded-full font-medium
+             hover:scale-105 hover:shadow-xl transition-transform duration-300">
+          View our work
+        </button>
+
+        <button
+          class="flex items-center gap-2 text-white
+             hover:gap-4 transition-all duration-300">
+          View Pricing →
+        </button>
+      </div>
+    </div>
+
+    <!-- Image -->
+    <div class="relative inline-block transition-transform duration-300 ease-out
+            hover:scale-105 hover:-translate-y-2
+            active:scale-105 active:-translate-y-2">
+      <img src="./img/Illustration.svg" alt="example" class="w-full h-auto rounded-lg shadow-sm">
+    </div>
+  </div>
+</header>
+
+
+<div class="flex flex-wrap justify-center gap-6 sm:gap-8 md:gap-10 mt-6">
+  <div class="transition-transform duration-300 ease-out hover:-translate-y-2 hover:scale-105 w-20 sm:w-24 md:w-28 lg:w-32">
+    <img src="./img/img-3/svg/1.png" alt="">
+  </div>
+  <div class="transition-transform duration-300 ease-out hover:-translate-y-2 hover:scale-105 w-20 sm:w-24 md:w-28 lg:w-32">
+    <img src="./img/img-3/svg/2.png" alt="">
+  </div>
+  <div class="transition-transform duration-300 ease-out hover:-translate-y-2 hover:scale-105 w-20 sm:w-24 md:w-28 lg:w-32">
+    <img src="./img/img-3/svg/-3.png" alt="">
+  </div>
+  <div class="transition-transform duration-300 ease-out hover:-translate-y-2 hover:scale-105 w-20 sm:w-24 md:w-28 lg:w-32">
+    <img src="./img/img-3/svg/4.png" alt="">
+  </div>
+  <div class="transition-transform duration-300 ease-out hover:-translate-y-2 hover:scale-105 w-20 sm:w-24 md:w-28 lg:w-32">
+    <img src="./img/img-3/svg/5.png" alt="">
+  </div>
+  <div class="transition-transform duration-300 ease-out hover:-translate-y-2 hover:scale-105 w-20 sm:w-24 md:w-28 lg:w-32">
+    <img src="./img/img-3/svg/6.png" alt="">
+  </div>
+</div>
+
+
+ 
+
+<section class="bg-[#f7f9fc] py-20">
+  <div class="max-w-6xl mx-auto px-6">
+
+    <p class="text-center text-sm text-gray-500 mb-2 mt-6">
+      Features
+    </p>
+
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-14 max-w-2xl mx-auto">
+      Design that solves problems, one product at a time
+    </h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <!-- Card 1 -->
+      <div class="bg-white p-8 rounded-xl shadow-sm 
+                  transition-all duration-300 ease-out
+                  hover:scale-105 hover:-translate-y-3 hover:shadow-xl">
+        <div class="w-10 h-10 mb-4">
+          <img src="./img/icon/img1/1.png" alt="">
+        </div>
+        <h3 class="font-semibold mb-2">Uses Client First</h3>
+        <p class="text-sm text-gray-600">
+          Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed mi.
+        </p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-white p-8 rounded-xl shadow-sm 
+                  transition-all duration-300 ease-out
+                  hover:scale-105 hover:-translate-y-3 hover:shadow-xl">
+        <div class="w-10 h-10 mb-4">
+          <img src="./img/icon/img1/2.png" alt="">
+        </div>
+        <h3 class="font-semibold mb-2">Two Free Revision Round</h3>
+        <p class="text-sm text-gray-600">
+          Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed mi.
+        </p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-white p-8 rounded-xl shadow-sm 
+                  transition-all duration-300 ease-out
+                  hover:scale-105 hover:-translate-y-3 hover:shadow-xl">
+        <div class="w-10 h-10 mb-4">
+          <img src="./img/icon/img1/3.png" alt="">
+        </div>
+        <h3 class="font-semibold mb-2">Template Customization</h3>
+        <p class="text-sm text-gray-600">
+          Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed mi.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!--2-->
+
+
+  <!--b-1-->
+    <div class="flex flex-col md:flex-row justify-between items-center px-4 md:px-8 py-8 md:py-12 gap-8 md:gap-12 max-w-6xl mx-auto">
+        
+        <!-- متن -->
+        <div class="text-right flex-1 max-w-2xl order-2 md:order-1">
+            <div class="text-left flex-1 max-w-2xl order-2 md:order-1" dir="ltr">
+                <p class="text-blue-600 font-semibold text-lg mb-2">About us</p>
+                <h2 class="text-2xl md:text-4xl font-bold mb-4">Our designs solve problems</h2>
+                <span class="text-gray-500 text-xs sm:text-sm leading-relaxed tracking-tight">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                </span>
+            </div>
+        </div>
+
+        <!-- عکس -->
+        <div class="flex-shrink-0 order-1 md:order-2">
+            <img 
+                src="./img/img-3/img/man-explaining-problems-to-faceless-psychologist-7176030.png" 
+                alt="تصویر طراحی" 
+                class="w-56 md:w-80 h-auto rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-110 hover:z-10 mb-4"
+            >
+        </div>
+    </div>
+  <!--b-1-->
+ 
+<!--b-2-->
+<div class="border border-gray-300 bg-gray-100 rounded-lg">
+
+     <div class="flex flex-col md:flex-row justify-between items-center px-4 md:px-8 py-8 md:py-12 gap-8 md:gap-12 max-w-6xl mx-auto">
+
+        <!-- عکس -->
+        <div class="flex-shrink-0 order-1">
+            <img 
+                src="./img/img-3/img/2.png" 
+                alt="تصویر طراحی" 
+                class="w-56 md:w-80 h-auto rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-110 hover:z-10 mb-4"
+            >
+        </div>
+
+        <!-- متن -->
+        <div class="text-right flex-1 max-w-2xl order-2">
+            <div class="text-left flex-1 max-w-2xl" dir="ltr">
+                <p class="text-blue-600 font-semibold text-lg mb-2">About us</p>
+                <h2 class="text-2xl md:text-4xl font-bold mb-4">Our designs solve problems</h2>
+                <span class="text-gray-500 text-xs sm:text-sm leading-relaxed tracking-tight">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                </span>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<!--b-2-->
+
+
+<!--b-3-->
+
+  <div class="flex flex-col md:flex-row justify-between items-center px-4 md:px-8 py-8 md:py-12 gap-8 md:gap-12 max-w-6xl mx-auto">
+        
+        <!-- متن -->
+        <div class="text-right flex-1 max-w-2xl order-2 md:order-1">
+            <div class="text-left flex-1 max-w-2xl order-2 md:order-1" dir="ltr">
+                <p class="text-blue-600 font-semibold text-lg mb-2">About us</p>
+                <h2 class="text-2xl md:text-4xl font-bold mb-4">Our designs solve problems</h2>
+                <span class="text-gray-500 text-xs sm:text-sm leading-relaxed tracking-tight">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                </span>
+            </div>
+        </div>
+
+        <!-- عکس -->
+        <div class="flex-shrink-0 order-1 md:order-2">
+            <img 
+                src="./img/img-3/img/3.png" 
+                alt="تصویر طراحی" 
+                class="w-56 md:w-80 h-auto rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-110 hover:z-10 mb-4"
+            >
+        </div>
+    </div>
+<!--b-3-->
+
+
+
+<!--b-4-->
+<div class="border border-gray-300 bg-yellow-50 rounded-lg">
+
+     <div class="flex flex-col md:flex-row justify-between items-center px-4 md:px-8 py-8 md:py-12 gap-8 md:gap-12 max-w-6xl mx-auto">
+
+        <!-- عکس -->
+        <div class="flex-shrink-0 order-1">
+            <img 
+                src="./img/img-3/img/4.png" 
+                alt="تصویر طراحی" 
+                class="w-56 md:w-80 h-auto rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-110 hover:z-10 mb-4"
+            >
+        </div>
+
+        <!-- متن -->
+        <div class="text-right flex-1 max-w-2xl order-2">
+            <div class="text-left flex-1 max-w-2xl" dir="ltr">
+                <p class="text-blue-600 font-semibold text-lg mb-2">About us</p>
+                <h2 class="text-2xl md:text-4xl font-bold mb-4">Our designs solve problems</h2>
+                <span class="text-gray-500 text-xs sm:text-sm leading-relaxed tracking-tight">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                </span>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+<!--b-4-->
+
+
+
+
+
+
+
+
+<!--acardion-->
+
+
+
+
+
+<section class="max-w-5xl ml-auto px-0">
+
+  <div class="grid md:grid-cols-3 gap-12">
+
+    <!-- Left -->
+    <div>
+      <h2 class="text-3xl font-bold text-gray-900 mb-4">
+        Frequently asked<br />questions
+      </h2>
+      <a href="#" class="text-indigo-600 text-sm font-medium">
+        Contact us for more info
+      </a>
+    </div>
+
+    <!-- Right / Accordion -->
+    <div class="md:col-span-2 border border-gray-200 rounded-xl overflow-hidden bg-white">
+
+      <!-- Item -->
+      <div class="accordion-item border-b">
+        <button
+          class="w-full flex items-start gap-6 p-6 text-left accordion-btn">
+          <span class="text-indigo-600 font-medium">01</span>
+          <div class="flex-1">
+            <h4 class="font-medium text-gray-900">
+              How much time does it take?
+            </h4>
+            <p class="accordion-content mt-4 text-gray-500 text-sm leading-relaxed">
+              Apparently we had reached a great height in the atmosphere, for the sky
+              was a dead black, and the stars had ceased to twinkle.
+            </p>
+          </div>
+          <span class="icon text-xl text-gray-400">×</span>
+        </button>
+      </div>
+
+      <!-- Item -->
+      <div class="accordion-item border-b">
+        <button class="w-full flex items-center gap-6 p-6 text-left accordion-btn">
+          <span class="text-indigo-600 font-medium">02</span>
+          <h4 class="flex-1 font-medium text-gray-900">
+            What is your class naming convention?
+          </h4>
+          <span class="icon text-xl text-gray-400">+</span>
+        </button>
+        <div class="accordion-content hidden px-16 pb-6 text-sm text-gray-500">
+          We follow Client-First and clean scalable naming conventions.
+        </div>
+      </div>
+
+      <div class="accordion-item border-b">
+        <button class="w-full flex items-center gap-6 p-6 text-left accordion-btn">
+          <span class="text-indigo-600 font-medium">03</span>
+          <h4 class="flex-1 font-medium text-gray-900">
+            How do we communicate?
+          </h4>
+          <span class="icon text-xl text-gray-400">+</span>
+        </button>
+        <div class="accordion-content hidden px-16 pb-6 text-sm text-gray-500">
+          Slack, Email and weekly calls.
+        </div>
+      </div>
+
+      <div class="accordion-item border-b">
+        <button class="w-full flex items-center gap-6 p-6 text-left accordion-btn">
+          <span class="text-indigo-600 font-medium">04</span>
+          <h4 class="flex-1 font-medium text-gray-900">
+            I have a bigger project. Can you handle it?
+          </h4>
+          <span class="icon text-xl text-gray-400">+</span>
+        </button>
+        <div class="accordion-content hidden px-16 pb-6 text-sm text-gray-500">
+          Yes, we scale with your project.
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="w-full flex items-center gap-6 p-6 text-left accordion-btn">
+          <span class="text-indigo-600 font-medium">05</span>
+          <h4 class="flex-1 font-medium text-gray-900">
+            What is your class naming convention?
+          </h4>
+          <span class="icon text-xl text-gray-400">+</span>
+        </button>
+        <div class="accordion-content hidden px-16 pb-6 text-sm text-gray-500">
+          Client-First methodology.
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+<!--acardion-->
+
+
+
+
+
+  <!-- Footer -->
+   <footer class="bg-[#1c1f5a] text-white mt-3">
+    <div class="max-w-7xl mx-auto px-6 py-16">
+
+      <!-- Top -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
+
+        <!-- Left -->
+        <div>
+          <h2 class="text-2xl font-bold mb-4">{Finsweet</h2>
+          <p class="text-sm text-gray-300 max-w-md">
+            We are always open to discuss your project and improve your online presence.
+          </p>
+
+          <!-- Contact box -->
+          <div class="mt-8 bg-[#fcd980] text-black p-6 rounded-lg w-full sm:w-[420px]">
+         <div class="flex flex-col sm:flex-row gap-6">
+
+  <div class="transition-transform duration-300 ease-out hover:-translate-y-2 hover:scale-105">
+    <p class="text-sm font-semibold">Email me at</p>
+    <p class="text-sm">contact@website.com</p>
+  </div>
+
+  <div class="transition-transform duration-300 ease-out hover:-translate-y-2 hover:scale-105">
+    <p class="text-sm font-semibold">Call us</p>
+    <p class="text-sm">0927 6277 28525</p>
+  </div>
+
+</div>
+
+          </div>
+        </div>
+
+        
+        <div>
+          <h2 class="text-2xl font-bold mb-4">Lets Talk!</h2>
+          <p class="text-sm text-gray-300 max-w-md mb-6">
+            We are always open to discuss your project, improve your online presence
+            and help with your UX/UI design challenges.
+          </p>
+
+          <!-- Social icons -->
+          <div class="flex gap-4">
+   <span class="inline-block transition-transform duration-300 ease-out hover:-translate-y-2 hover:scale-105">
+  <img src="./img/icon-2/1.png" alt="">
+</span>
+
+<span class="inline-block transition-transform duration-300 ease-out hover:-translate-y-2 hover:scale-105">
+  <img src="./img/icon-2/2.png" alt="">
+</span>
+
+<span class="inline-block transition-transform duration-300 ease-out hover:-translate-y-2 hover:scale-105">
+  <img src="./img/icon-2/3.png" alt="">
+</span>
+
+<span class="inline-block transition-transform duration-300 ease-out hover:-translate-y-2 hover:scale-105">
+  <img src="./img/icon-2/4.png" alt="">
+</span>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Bottom -->
+    <div class="bg-white text-black">
+      <div class="max-w-7xl mx-auto px-6 py-6 flex flex-col md:flex-row justify-between items-center gap-4">
+        <p class="text-sm">Copyright 2022, Finsweet.com</p>
+
+        <ul class="flex gap-6 text-sm font-medium">
+      
+  <li class="transition-transform duration-300 ease-out hover:-translate-y-1 cursor-pointer">Home</li>
+  <li class="transition-transform duration-300 ease-out hover:-translate-y-1 cursor-pointer">About us</li>
+  <li class="transition-transform duration-300 ease-out hover:-translate-y-1 cursor-pointer">Features</li>
+  <li class="transition-transform duration-300 ease-out hover:-translate-y-1 cursor-pointer">Pricing</li>
+  <li class="transition-transform duration-300 ease-out hover:-translate-y-1 cursor-pointer">FAQ</li>
+  <li class="transition-transform duration-300 ease-out hover:-translate-y-1 cursor-pointer">Blog</li>
+
+        </ul>
+      </div>
+    </div>
+
+  </footer>
+
+
+  <script src="node_modules/mdb-ui-kit/js/mdb.umd.min.js">
+
+  
+</script>
+
+
+
+<script>
+  const menuBtn = document.getElementById('menu-btn');
+  const menu = document.getElementById('menu');
+
+  menuBtn.addEventListener('click', () => {
+    menu.classList.toggle('hidden');
+  });
+</script>
+
+
+
+
+
+<!--acardion-->
+
+ <script>
+document.querySelectorAll(".accordion-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const content = btn.parentElement.querySelector(".accordion-content");
+    const icon = btn.querySelector(".icon");
+
+    document.querySelectorAll(".accordion-content").forEach(c => {
+      if (c !== content) c.classList.add("hidden");
+    });
+    document.querySelectorAll(".icon").forEach(i => i.
+
+innerText = "+");
+
+    content?.classList.toggle("hidden");
+    icon.innerText = content?.classList.contains("hidden") ? "+" : "×";
+  });
+});
+</script>
+
+
+<!--acardion-->
+
+
+</body>
+</html>
