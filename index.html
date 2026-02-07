@@ -8,6 +8,27 @@
     <link rel="stylesheet" href="./public/css/main.css">
     <link rel="stylesheet" href="node_modules/mdb-ui-kit/css/mdb.min.css">
     <link rel="stylesheet" href="./public/css/index.css">
+    <style>
+      #sajjad-sign:hover{
+  opacity: 1;
+  transform: translateY(-2px);
+  transition: 0.3s;
+      }
+      #upBtn{
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  padding: 10px 12px;
+  border: none;
+  border-radius: 50%;
+  background: #1E2156;
+  color: white;
+  cursor: pointer;
+  display: none;
+  transition: 0.3s;
+}
+#upBtn:hover{ transform: scale(1.1); }
+      <\style> 
   </head>
   <body>
     
@@ -771,7 +792,10 @@
         </ul>
       </div>
     </div>
-
+<div id="sajjad-sign" class="fixed bottom-2 right-3 text-xs text-gray-400 opacity-40">
+  Designed by Sajjad
+  </div>
+                                               <button id="upBtn">⬆</button>
   </footer>
 
 
@@ -861,6 +885,15 @@ render();
   menuBtn.addEventListener('click', () => {
     menu.classList.toggle('hidden');
   });
+    const upBtn = document.getElementById("upBtn");
+
+window.addEventListener("scroll", () => {
+  upBtn.style.display = window.scrollY > 200 ? "block" : "none";
+});
+
+upBtn.onclick = () => {
+  window.scrollTo({top: 0, behavior: "smooth"});
+};
 </script>
 
 
